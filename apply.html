@@ -182,6 +182,7 @@
                           </div>                                             
                     </div>      
 
+                    <p> </p>
                     <em><p>Step 2: Subject Property</p></em>                
                     <div class="row">
                         <div class="col-md-6 pl-0 custom-dropdown-example">
@@ -252,22 +253,62 @@
                                 </div>
                             </div>                                    
                         </div>                  
-                          
+                      
                           <em><p>Step 3: Assets</p></em>                
                           <div class="row">
-                              <div class="col-md-6 col-sm-12">
-                                  <div class="form-group">
-                                    <label for="applyNumberOfProperties">How Many Properties Do You Own</label>
-                                    <input type="email" class="form-control" id="applyNumberOfProperties" placeholder="Enter Number of Properties that you own">
-                                  </div>
-                              </div> 
-                              <div class="col-md-6 col-sm-12">
+                          
+                            <div class="custom-controls-example col-md-6 col-sm-12">
+                              <label for="applyDownPaymentSrc">Downpayment Source <em>[Select all that apply]</em></label>
+                              <fieldset>
+                                <div class="custom-control custom-checkbox d-block my-2">
+                                  <input type="checkbox" class="custom-control-input" id="downPaymentSrcSavings">
+                                  <label class="custom-control-label" for="downPaymentSrcSavings">Personal Savings</label>
+                                </div>
+                              </fieldset>
+                              <fieldset>
+                                <div class="custom-control custom-checkbox d-block my-2">
+                                  <input type="checkbox" class="custom-control-input" id="downPaymentSrcRRSP">
+                                  <label class="custom-control-label" for="downPaymentSrcRRSP">RRSP</label>
+                                </div>
+                              </fieldset>    
+                              <fieldset>
+                                <div class="custom-control custom-checkbox d-block my-2">
+                                  <input type="checkbox" class="custom-control-input" id="downPaymentSrcGiftsFamily">
+                                  <label class="custom-control-label" for="downPaymentSrcGiftsFamily">Gifts from Parents, Grandparents, Siblings</label>
+                                </div>
+                              </fieldset>       
+                              <fieldset>
+                                <div class="custom-control custom-checkbox d-block my-2">
+                                  <input type="checkbox" class="custom-control-input" id="downPaymentSrcGiftsOther">
+                                  <label class="custom-control-label" for="downPaymentSrcGiftsOther">Gifts from someone else</label>
+                                </div>
+                              </fieldset>       
+                              <fieldset>
+                                <div class="custom-control custom-checkbox d-block my-2">
+                                  <input type="checkbox" class="custom-control-input" id="downPaymentSrcBorrow">
+                                  <label class="custom-control-label" for="downPaymentSrcBorrow">I'll borrow it</label>
+                                </div>
+                              </fieldset>                                                                                                             
+                            </div>     
+
+                            <div class="col-md-6 col-sm-12">
                                   <div class="form-group">
                                     <label for="applyDownPayment">Downpayment Amount</label>
-                                    <input type="email" class="form-control" id="applyDownPayment" placeholder="Enter downpayment amoun">
+                                    <input type="email" class="form-control" id="applyDownPayment" placeholder="Enter downpayment amount">
                                   </div>
-                              </div>                                    
-                          </div>                           
+                              </div>  
+                                                                   
+                              <div class="col-md-6 col-sm-12">
+                                <div class="form-group">
+                                  <label for="applyNumberOfProperties">How Many Properties Do You Own</label>
+                                  <input type="email" class="form-control" id="applyNumberOfProperties" placeholder="Enter Number of Properties that you own">
+                                </div>
+                              </div> 
+                          </div> 
+
+                          
+                                               
+                          
                         
                 <hr>
                 <input class="btn btn-primary btn-pill d-flex ml-auto mr-auto" type="submit" value="Apply Now">
